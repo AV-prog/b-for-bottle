@@ -9,38 +9,203 @@
 <body>
     <form action="#" method="post">
         <div class="form_container">
-            <h2>Personal Information</h2>
+            <div class="form_content">
+                <fieldset class="personal_information_container">
+                    <legend>Personal Information</legend>
 
-            <label for="firstname">Firstname:</label>
-            <input type="text" id="firstname" name="firstname" required><br><br> 
+                    <label for="firstname">Firstname:</label>
+                    <input type="text" id="firstname" name="firstname" required><br><br> 
 
-            <label for="lastname">Lastname:</label>
-            <input type="text" id="lastname" name="lastname" required><br><br>
+                    <label for="lastname">Lastname:</label>
+                    <input type="text" id="lastname" name="lastname" required><br><br>
 
-            <label for="miname">Middlename:</label>
-            <input type="text" id="miname" name="miname" required><br><br>
+                    <label for="miname">Middlename:</label>
+                    <input type="text" id="miname" name="miname" required><br><br>
 
-            <label for="othername">Othername(s):</label>
-            <input type="text" id="othername" name="othername" required><br><br>
+                    <label for="othername">Othername(s):</label>
+                    <input type="text" id="othername" name="othername" required><br><br>
 
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required><br><br>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
 
-            <label for="phonenumber">Phone Number:</label>
-            <input type="tel" id="phonenumber" name="phonenumber" required><br><br>
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" required><br><br>
 
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required><br><br>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required><br><br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
 
-            <label for="confirm_password">Confirm Password:</label>
-            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
-            
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+                </fieldset>
+                
+                <fieldset class="questions_container">
+                    <legend>Security Questions</legend>
+                    
+                    <div class="question">
+                        <p>1. What is your pet's name?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q1" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q1" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q1" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q1" value="d"><br>
+                    </div>
+                    
+                    <div class="question">
+                        <p>2. What is your favorite food?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q2" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q2" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q2" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q2" value="d"><br>
+                    </div>
+                    
+                    <div class="question">
+                        <p>3. What is your favorite color?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q3" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q3" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q3" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q3" value="d"><br>
+                    </div>
+                    
+                    <div class="question">
+                        <p>4. What is your favorite movie?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q4" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q4" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q4" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q4" value="d"><br>
+                    </div>
+                </fieldset>
+
+                <fieldset class="questions_container">
+                    <legend>Technical Knowledge</legend>
+                    
+                    <div class="question">
+                        <p>1. In what field do you specialize?</p>
+                        <label>Option A</label>
+                        <input type="checkbox" name="q1" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="checkbox" name="q1" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="checkbox" name="q1" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="checkbox" name="q1" value="d"><br>
+
+                        <label>Option B</label>
+                        <input type="checkbox" name="q1" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="checkbox" name="q1" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="checkbox" name="q1" value="d"><br>
+                    </div>
+
+                    <div class="question">
+                        <p>2. What are the languages you're conversant in?</p>
+                        <label>Option A</label>
+                        <input type="checkbox" name="q2" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="checkbox" name="q2" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="checkbox" name="q2" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="checkbox" name="q2" value="d"><br>
+
+                        <label>Option B</label>
+                        <input type="checkbox" name="q2" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="checkbox" name="q2" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="checkbox" name="q2" value="d"><br>
+                    </div>
+                    
+                    <div class="question">
+                        <p>3. For how long have you been working in this field?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q3" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q3" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q3" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q3" value="d"><br>
+                    </div>
+                    
+                    <div class="question">
+                        <p>4. What is your favorite color?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q4" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q4" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q4" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q4" value="d"><br>
+                    </div>
+                    
+                    <div class="question">
+                        <p>5. What is your favorite movie?</p>
+                        <label>Option A</label>
+                        <input type="radio" name="q5" value="a"><br>
+
+                        <label>Option B</label>
+                        <input type="radio" name="q5" value="b"><br>
+
+                        <label>Option C</label>
+                        <input type="radio" name="q5" value="c"><br>
+
+                        <label>Option D</label>
+                        <input type="radio" name="q5" value="d"><br>
+                    </div>
+                </fieldset>
+            </div>
+            <br><br>
             <button type="submit">Sign Up</button>
         </div>
     </form>
