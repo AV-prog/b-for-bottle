@@ -138,7 +138,7 @@
     width: 100%; /* Ensures background spans full screen */
     background-image: 
         linear-gradient(rgba(18, 26, 18, 0.7)), 
-        url('images/hero_image.jpg');
+        url('../images/hero_image.jpg');
     background-size: cover;
     background-position: center;
     padding: 80px 0;
@@ -170,6 +170,7 @@
         );
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -180,6 +181,7 @@
     background: #D1D1D1;
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -218,6 +220,7 @@
     background-color: #000b82;
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -230,6 +233,7 @@
     background: #4A4A4A;
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -303,14 +307,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('images/white-reusable-water-bottle.jpg');
+    background-image: url('../images/white-reusable-water-bottle.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 } 
 
 #card-2{
-    background-image: url('images/499.jpg');
+    background-image: url('../images/499.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -338,6 +342,7 @@
         );
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent; 
@@ -360,7 +365,7 @@
     flex-direction: column;
     justify-content: center;
     color: #000000;
-    background-image: url('images/bottle1.jpg');
+    background-image: url('../images/bottle1.jpg');
     background-size: cover;
     background-position: center;
     transition: 0.3s ease-in;
@@ -369,22 +374,24 @@
 
 .services_card:nth-child(2) {
     color: #ffffff;
-    background-image: url('images/close-up-hand-with-drink-bottles.jpg');
+    background-image: url('../images/close-up-hand-with-drink-bottles.jpg');
     background-size: cover;
     background-position: center;
     transition: 0.3s ease-in;
 
 }
+
 .services_card:nth-child(3) {
     color: #ffffff;
-    background-image: url('images/bottle-beer-desk.jpg');
+    background-image: url('../images/bottle-beer-desk.jpg');
     background-size: cover;
     background-position: center;
     transition: 0.3s ease-in;
 }
+
 .services_card:nth-child(4) {
     color: #000000;
-    background-image: url('images/white-sports-bottle-equipment.jpg');
+    background-image: url('../images/white-sports-bottle-equipment.jpg');
     background-size: cover;
     background-position: center;
     transition: 0.3s ease-in;
